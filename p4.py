@@ -1,0 +1,5 @@
+p=float(input("enter principal amount:"))
+s=float(input("enter interest:"))
+r=float(input("enter rate of interest:"))
+time=(s*100)/(p*r)
+print("time:",time)
